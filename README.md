@@ -10,8 +10,8 @@ This project analyses NHS primary care appointment data to determine whether nat
 
 ## 📁 Project Files
 - `actual_duration.csv` — Original dataset
-- `appointments_regional.csv` — Original dataset
-- `national_categories.csv` — Original dataset
+- `appointments_regional.csv` — Original dataset (zipped due to size)
+- `national_categories.csv` — Original dataset (zipped due to size)
 - `tweets.csv` — Original dataset
 - `Python Script.ipynb` — Code for analysis and visualisations for stakeholder presentation
 - `Technical Report and Insights.pdf` — Business problem, assumptions / limitations, data wrangling and analysis, and recommendations
