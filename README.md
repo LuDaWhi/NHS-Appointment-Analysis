@@ -4,7 +4,7 @@ Exploratory data analysis project using Python (pandas, NumPy, Matplotlib, Seabo
 ---
 
 ## 📌 Executive Summary
-This project analyses NHS primary care appointment data to determine whether national and regional capacity was adequate, how effectively resources were utilised, and where systemic pressures or inefficiencies occurred. The analysis covers August 2021 to June 2022 and focuses on demand vs. capacity, utilisation rates, appointment mode preferences, and DNA patterns. The findings indicate that although monthly national demand remained below capacity, daily demand exceeded manageable levels more than half the time, several Integrated Care Boards (ICBs) consistently lacked sufficient capacity, and DNA rates contributed to avoidable wastage. Based on these insights, the project recommends shifting remote and virtual appointment demand from pressured ICBs to neighbouring ICBs with unutilised capacity, and introducing an overbooking policy for appointment modes with consistently high DNA rates to reduce wasted capacity.
+This project analyses NHS primary care appointment data to determine whether national and regional capacity was adequate, how effectively resources were utilised, and where systemic pressures or inefficiencies occurred. The analysis covers August 2021 to June 2022 and focuses on demand vs. capacity, utilisation rates, appointment mode preferences, and DNA patterns. The findings indicate that although monthly national demand remained below capacity, daily demand exceeded manageable levels more than half the time, several Integrated Care Boards (ICBs) consistently lacked sufficient capacity, and DNA rates contributed to avoidable wastage. Based on these insights, the project recommends shifting remote and virtual appointment demand from pressured ICBs to neighbouring ICBs with unutilised capacity, and piloting an overbooking policy for appointment modes with consistently high DNA rates to reduce wasted capacity.
 
 ---
 
@@ -14,7 +14,7 @@ This project analyses NHS primary care appointment data to determine whether nat
 - `national_categories.csv` — Original dataset
 - `tweets.csv` — Original dataset
 - `Python Script.ipynb` — Code for analysis and visualisations for stakeholder presentation
-- `Technical Report and Insights.pdf` — Business problem, assumptions/ limitations, data wrangling and analysis, and recommendations
+- `Technical Report and Insights.pdf` — Business problem, assumptions / limitations, data wrangling and analysis, and recommendations
 
 ---
 
@@ -38,7 +38,7 @@ This project uses internal NHS datasets to assess national and regional demand, 
 - Calculated national monthly demand vs. capacity
 - Estimated daily demand to identify manageable vs. unmanageable days
 - Identified ICBs with insufficient capacity and neighbouring ICBs with unutilised capacity
-- Mapped ICB names across datasets to analyse remote/virtual appointment demand
+- Mapped ICB names across datasets to analyse remote / virtual appointment demand
 - Calculated national and regional appointment utilisation rates
 - Calculated DNA rates overall and by appointment mode
 - Created exploratory and explanatory visualisations using Matplotlib and Seaborn
@@ -82,7 +82,7 @@ Neighbouring ICBs often had unutilised appointments, suggesting opportunities fo
 
 ### Remote / Virtual Appointment Demand
 
-Six ICBs experienced demand for 10–14 million remote/virtual appointments, highlighting significant variation in appointment mode preferences across regions.
+Six ICBs experienced demand for 10–14 million remote / virtual appointments, highlighting significant variation in appointment mode preferences across regions.
 
 <img width="1004" height="567" alt="image" src="https://github.com/user-attachments/assets/32b2fb3b-3605-4508-add6-649620d6b5eb" />
 
@@ -108,11 +108,11 @@ DNA rates were comparable nationally and regionally.
 
 <img width="1004" height="567" alt="image" src="https://github.com/user-attachments/assets/1f4644a3-92df-4266-b275-2b6630bccf85" />
 
-Approximately 5% of face‑to‑face and video/online appointments were DNAs in North East and North Cumbria.
+Approximately 5% of face‑to‑face and video / online appointments were DNAs in North East and North Cumbria.
 
 <img width="1004" height="567" alt="image" src="https://github.com/user-attachments/assets/7cf03fd1-96f8-4e19-a7ad-3f1d0257869d" />
 
-Month‑on‑month analysis showed the lowest DNA rates were 4.81% (face‑to‑face) and 3.78% (video/online).
+Month‑on‑month analysis showed the lowest DNA rates were 4.81% (face‑to‑face) and 3.78% (video / online).
 
 <img width="1004" height="567" alt="image" src="https://github.com/user-attachments/assets/d54a3eac-fc64-45ab-bdc7-888ff5c51906" />
 
@@ -120,7 +120,7 @@ Month‑on‑month analysis showed the lowest DNA rates were 4.81% (face‑to‑
 
 ### Social Media (X / Twitter) Analysis
 
-Sixteen relevant hashtags appeared more than ten times each, featuring in 18% of sampled tweets — indicating moderate public engagement with primary care topics.
+Sixteen relevant hashtags appeared more than ten times each, featuring in 18% of sampled tweets, indicating moderate public engagement with primary care topics.
 
 <img width="1004" height="567" alt="image" src="https://github.com/user-attachments/assets/86e39187-bec0-4e81-9cdd-a823e9a93b3f" />
 
